@@ -6,7 +6,9 @@ public class Search {
     @JsonProperty
     private String city;
 
-    public Search() {}
+    public Search() {
+
+    }
 
     public Search(String city) {
         this.city = city;
